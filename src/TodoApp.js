@@ -7,10 +7,6 @@ import {
 import AddTodo from './containers/AddTodo';
 import VisibleTodos from './containers/VisibleTodos'
 class TodoApp extends Component {
-    /*state = {
-        todos:[],
-        visibilityFilter: 'SHOW_ALL_TODOS'
-    }*/
     render() {
         return (
             <View style={styles.container}>

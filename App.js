@@ -15,10 +15,12 @@ import {
 import TodoApp from './src/TodoApp';
 import store from './src/store';
 import { Provider } from 'react-redux'; 
+import Header from './src/components/Header';
 
 const App: () => React$Node = () => {
   return (
     <Provider store={store}>
+      <Header />
       <TodoApp></TodoApp>
     </Provider>
   );
